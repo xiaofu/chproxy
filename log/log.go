@@ -9,7 +9,7 @@ import (
 )
 
 var (
-	stdLogFlags     = log.LstdFlags | log.Lshortfile | log.LUTC
+	stdLogFlags     = log.LstdFlags | log.Lshortfile 
 	outputCallDepth = 2
 
 	debugLogger = log.New(os.Stderr, "DEBUG: ", stdLogFlags)
